@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resultado del sumador coincide con snapshot 1`] = `
+{
+  "a": 2,
+  "b": 3,
+  "suma": 5,
+}
+`;
