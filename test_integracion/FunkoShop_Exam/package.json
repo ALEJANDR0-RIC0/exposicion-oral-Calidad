@@ -2,9 +2,12 @@
     "name": "snapshot-funcional",
     "version": "1.0.0",
     "scripts": {
-      "test": "jest"
+        "test": "jest"
     },
     "devDependencies": {
-      "jest": "^29.0.0"
+        "jest": "^29.0.0"
+    },
+    "dependencies": {
+        "snapshot-funcional": "file:"
     }
-  }
+}

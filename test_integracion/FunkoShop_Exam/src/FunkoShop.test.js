@@ -2,7 +2,6 @@ const { FunkoShop } = require('../src/FunkoShop'); // Ajusta la ruta según tu p
 const { FunkoRepository } = require('../src/FunkoRepository'); // Ajusta la ruta según tu proyecto
 const { Funko } = require('../src/Funko'); // Ajusta la ruta según tu proyecto
 
-jest.mock('../src/FunkoRepository'); // Mock del repositorio
 
 describe('FunkoShop', () => {
   let funkoRepository;
